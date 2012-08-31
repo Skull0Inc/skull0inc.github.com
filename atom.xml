@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Skull0Inc]]></title>
-  <link href="http://Skull0inc.github.com/atom.xml" rel="self"/>
-  <link href="http://Skull0inc.github.com/"/>
-  <updated>2012-08-30T17:19:23-04:00</updated>
-  <id>http://Skull0inc.github.com/</id>
+  <link href="http://skull0inc.github.com/skull0inc.github.com/atom.xml" rel="self"/>
+  <link href="http://skull0inc.github.com/skull0inc.github.com/"/>
+  <updated>2012-08-31T02:18:11-04:00</updated>
+  <id>http://skull0inc.github.com/skull0inc.github.com/</id>
   <author>
     <name><![CDATA[Skull0Inc]]></name>
     
@@ -15,10 +15,12 @@
   
   <entry>
     <title type="html"><![CDATA[Welcome to Skull0Inc]]></title>
-    <link href="http://Skull0inc.github.com/blog/2012/08/27/welcome-to-the-world-of-skull0inc-a-place-for-my-thoughts/"/>
+    <link href="http://skull0inc.github.com/skull0inc.github.com/blog/2012/08/27/Welcome-to-Skull0inc/"/>
     <updated>2012-08-27T02:53:00-04:00</updated>
-    <id>http://Skull0inc.github.com/blog/2012/08/27/welcome-to-the-world-of-skull0inc-a-place-for-my-thoughts</id>
-    <content type="html"><![CDATA[
+    <id>http://skull0inc.github.com/skull0inc.github.com/blog/2012/08/27/Welcome-to-Skull0inc</id>
+    <content type="html"><![CDATA[<p>This is my <em>(Skull0Inc)</em> introductory post for testing the use of the [<a href="http://octopress.org/"><strong>Octopress</strong></a>] blogging framework which was used to to generate these website pages along with the use of the site hosting service which is being provided by <strong>[<a href="http://www.github.com">GitHub</a>]</strong>.</p>
+
+<p>For some time now I have always just wanted to have a website just for the sake of <strong>being part of</strong> what <strong>the internet</strong> is -which is a collection of human shared ideas- as we collectively assimilate our disparate thoughts into harnessing the also ever growing collective <em>power of the internet</em>. Now it is more of a means of necessity that I think I should have a website. For me, it is going to be a personal documentation area, where I can just jot down any procedures or things that I come across ever-so-often and that they may be little reminders of things which I think are noteworthy. Also <strong>for you</strong>, hopefully it will be a <em>resource of little reminders</em> . In addition to that, its just a fun creative outlet for me to do something somewhat technical and enjoy the use of technology as it is in today&#8217;s format. Yes, that&#8217;s it. Its a celebration of the internet by using that very said collective resource and adding to it.</p>
 ]]></content>
   </entry>
   

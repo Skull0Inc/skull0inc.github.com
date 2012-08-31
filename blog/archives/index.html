@@ -9,8 +9,8 @@
   <meta name="author" content="Skull0Inc">
 
   
-  <meta name="description" content=" Blog Archive 2012 Welcome to Skull0Inc
-Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc ">
+  <meta name="description" content="Blog Archive 2012 Welcome to Skull0Inc
+Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc GitHub Repos Status updating... @ &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +19,7 @@ Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc ">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://Skull0inc.github.com/blog/archives/">
+  <link rel="canonical" href="http://skull0inc.github.com/skull0inc.github.com/blog/archives/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <script src="/javascripts/modernizr-2.0.js"></script>
@@ -50,7 +50,7 @@ Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc ">
   
 <form action="http://google.com/search" method="get">
   <fieldset role="search">
-    <input type="hidden" name="q" value="site:Skull0inc.github.com" />
+    <input type="hidden" name="q" value="site:skull0inc.github.com/skull0inc.github.com" />
     <input class="search" type="text" name="q" results="0" placeholder="Search"/>
   </fieldset>
 </form>
@@ -80,7 +80,7 @@ Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc ">
 
 <article>
   
-<h1><a href="/blog/2012/08/27/welcome-to-the-world-of-skull0inc-a-place-for-my-thoughts/">Welcome to Skull0Inc</a></h1>
+<h1><a href="/blog/2012/08/27/Welcome-to-Skull0inc/">Welcome to Skull0Inc</a></h1>
 <time datetime="2012-08-27T02:53:00-04:00" pubdate><span class='month'>Aug</span> <span class='day'>27</span> <span class='year'>2012</span></time>
 
 <footer>
@@ -104,10 +104,39 @@ Aug 27 2012 posted in Introduction Recent Posts Welcome to Skull0Inc ">
   <ul id="recent_posts">
     
       <li class="post">
-        <a href="/blog/2012/08/27/welcome-to-the-world-of-skull0inc-a-place-for-my-thoughts/">Welcome to Skull0Inc</a>
+        <a href="/blog/2012/08/27/Welcome-to-Skull0inc/">Welcome to Skull0Inc</a>
       </li>
     
   </ul>
+</section>
+
+<section>
+  <h1>GitHub Repos</h1>
+  <ul id="gh_repos">
+    <li class="loading">Status updating...</li>
+  </ul>
+  
+  <a href="https://github.com/Skull0inc">@Skull0inc</a> on GitHub
+  
+  <script type="text/javascript">
+    $.domReady(function(){
+        if (!window.jXHR){
+            var jxhr = document.createElement('script');
+            jxhr.type = 'text/javascript';
+            jxhr.src = '/javascripts/libs/jXHR.js';
+            var s = document.getElementsByTagName('script')[0];
+            s.parentNode.insertBefore(jxhr, s);
+        }
+
+        github.showRepos({
+            user: 'Skull0inc',
+            count: 0,
+            skip_forks: true,
+            target: '#gh_repos'
+        });
+    });
+  </script>
+  <script src="/javascripts/github.js" type="text/javascript"> </script>
 </section>
 
 
