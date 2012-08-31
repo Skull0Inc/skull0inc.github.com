@@ -2,7 +2,7 @@
 #      Main Configs       #
 # ----------------------- #
 
-url: http://Skull0inc.github.com
+url: http://skull0inc.github.com/skull0inc.github.com
 title: Skull0Inc
 subtitle: welcome to the musings of my mind
 author: Skull0Inc
@@ -58,7 +58,7 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user:
+github_user:Skull0inc
 github_repo_count: 0
 github_show_profile_link: true
 github_skip_forks: true
@@ -67,7 +67,7 @@ github_skip_forks: true
 twitter_user:
 twitter_tweet_count: 4
 twitter_show_replies: false
-twitter_follow_button: true
+twitter_follow_button: false
 twitter_show_follower_count: false
 twitter_tweet_button: true
 
